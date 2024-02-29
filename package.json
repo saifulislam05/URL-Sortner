@@ -9,5 +9,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Saiful Islam",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nanoid": "^5.0.6"
+  }
 }

@@ -7,9 +7,10 @@
 </head>
 <body>
   <h1>URL Shortener</h1>
-  <form action="/shorten" method="post">
+  <form action="/sort-url" method="post">
     <label for="longUrl">Enter a long URL:</label>
-    <input type="url" id="longUrl" name="longUrl" required>
+    <!-- Make sure the name attribute matches what your server expects -->
+    <input type="url" id="longUrl" name="url" required>
     <button type="submit">Shorten URL</button>
   </form>
 </body>
