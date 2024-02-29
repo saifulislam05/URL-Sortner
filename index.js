@@ -70,7 +70,7 @@ app.post("/sort-url", (req, res) => {
   fs.writeFileSync("urlDatabase.json", JSON.stringify(fileData, null, 2));
   res.json({
     success: true,
-    url: `http://localhost:5000/${shortUrl}`,
+    url: `https://url-sortner-5i18.onrender.com/${shortUrl}`,
   });
 });
 
